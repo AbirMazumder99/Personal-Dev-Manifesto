@@ -24,7 +24,7 @@ Personal Dev Notes for the future
 
 - Github Actions
 
-## Webdev Project Workflow
+## Web dev Project Workflow
 
 1. Create the GitHub repo with the project skeleton and push the initial code
 2. Set up GitHub continuous deployment with Vercel/Netlify (or any other hosting service)
@@ -62,7 +62,7 @@ Personal Dev Notes for the future
 message-item/
 ```
 
-- Maintanable import structure at the top of files
+- Maintainable import structure at the top of files
 
 ```
 Built-In (like 'react') --> External (third-party node modules) --> Internal
@@ -94,6 +94,13 @@ src
 └───services/
 ```
 
+## VSCode Extensions
+
+- GitLens
+- Live Share
+- Better Comments
+- Prettier
+- ESLint
 ## Useful Tricks
 
 - Sometimes it will required to delete ./node_modules folder to resolve random errors related to 3rd party libraries. Use the following command instead of manual deletion because it will be way faster
