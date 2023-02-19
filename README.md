@@ -123,8 +123,9 @@ src
 - Prettier
 - ESLint
 
-## Useful Tricks
+## Useful Notes
 
+- https://12factor.net/
 - Sometimes it will required to delete ./node_modules folder to resolve random errors related to 3rd party libraries. Use the following command instead of manual deletion because it will be way faster
   ```
   rm -rf node_modules
