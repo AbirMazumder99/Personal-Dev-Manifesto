@@ -51,6 +51,11 @@ Personal Dev Notes for the future
 - Testing Endpoints: Postman
 - Declarative API Documentation: Swagger
 
+## End-to-end Testing
+
+- Docker: provision infrastructure resources and mimic a prod environment in isolation
+- Selenium: Utilize the WebDriver API to automate events for web apps
+
 ## Web dev Project Workflow
 
 1. Create the GitHub repo with the project skeleton and push the initial code
@@ -86,7 +91,6 @@ Personal Dev Notes for the future
 ## React Best Practices (adapt as per application size)
 
 - kebab-case naming convention for folders: message-item/
-
 - Maintainable import structure at the top of files: Built-In (like 'react') --> External (third-party node modules) --> Internal
 
 - Set up Linter (ESLint)
@@ -122,12 +126,21 @@ src
 - Better Comments
 - Prettier
 - ESLint
+- IntelliCode + API Usage Examples
+
+## Data Visualization
+
+- Charts - JSCharting
 
 ## Useful Notes
 
-- https://12factor.net/
 - Sometimes it will required to delete ./node_modules folder to resolve random errors related to 3rd party libraries. Use the following command instead of manual deletion because it will be way faster
   ```
   rm -rf node_modules
   ```
 - When concerned with caching for better performance, memoization is a good concept to implement
+
+## Useful GitHub Repo
+
+- https://github.com/donnemartin/system-design-primer
+- https://12factor.net/
