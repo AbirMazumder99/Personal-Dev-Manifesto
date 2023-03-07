@@ -42,8 +42,8 @@ Personal Dev Notes for the future
 
 ## Environments
 
-- development
-- integration
+- development/integration
+- staging/QA
 - production
 
 ## API Testing
