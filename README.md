@@ -144,3 +144,4 @@ src
 
 - https://github.com/donnemartin/system-design-primer
 - https://12factor.net/
+- https://web.dev/
