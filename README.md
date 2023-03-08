@@ -145,3 +145,8 @@ src
 - https://github.com/donnemartin/system-design-primer
 - https://12factor.net/
 - https://web.dev/
+
+## Projects
+- Revamp Personal Website w an overall theme of music
+- MyMeme Website
+- Shane Watson
