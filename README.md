@@ -147,6 +147,35 @@ src
 - https://web.dev/
 
 ## Projects
+
 - Revamp Personal Website w an overall theme of music
 - MyMeme Website
 - Shane Watson
+
+## Data Engineering in a Project Context
+
+- SWE Basics: terminal, YAML files, Git/GitHub
+- Programming: SQL basics
+- Data Warehouse: BigQuery (Dataset, Table, Service Accounts) & appropriate alternatives
+- Data Processing: DBT CLI commands
+- CI/CD: GitHub Actions, Docker
+- Dashboarding: Connect to data, create charts/metrics
+
+## New Codebase Best Practices
+
+1. Use the application
+2. Documentation (README.md, Notion, Confluence)
+3. Dependencies
+
+- External: DB, Caching, Other Microservices (.env files are helpful for this)
+- Internal: JS/ Python libraries; usually managed via package manager like npm (package.json) or poetry (pyproject.toml)
+
+4. Data model (a tool like DBeaver shows schemas and relations)
+
+## AWS Data Pipeline Blueprint
+
+1. Connect (AWS API Gateway)
+2. Store (AWS S3, DynamoDB)
+3. Processing Framework (AWS ElasticSearch)
+4. Buffer (AWS Kinesis)
+5. Visualize (Web & Mobile Apps, BI Tools like Tablueu)
