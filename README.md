@@ -161,21 +161,31 @@ src
 - CI/CD: GitHub Actions, Docker
 - Dashboarding: Connect to data, create charts/metrics
 
-## New Codebase Best Practices
+## Understanding New Codebase Best Practices
 
-1. Use the application
-2. Documentation (README.md, Notion, Confluence)
-3. Dependencies
+- Environment Setup
+- Build Process
+- Debug Code to understand stack tracing and flow
+- Deployment
+- Use the application
+- Documentation (README.md, Notion, Confluence)
+- Dependencies
+  - External: DB, Caching, Other Microservices (.env files are helpful for this)
+  - Internal: JS/ Python libraries; usually managed via package manager like npm (package.json) or poetry (pyproject.toml)
+- Data model (a tool like DBeaver shows schemas and relations)
 
-- External: DB, Caching, Other Microservices (.env files are helpful for this)
-- Internal: JS/ Python libraries; usually managed via package manager like npm (package.json) or poetry (pyproject.toml)
+## Data Engineering Stuff
 
-4. Data model (a tool like DBeaver shows schemas and relations)
+Good guide: https://github.com/andkret/Cookbook
 
-## AWS Data Pipeline Blueprint
+AWS Data Pipeline Blueprint
 
 1. Connect (AWS API Gateway)
 2. Store (AWS S3, DynamoDB)
 3. Processing Framework (AWS ElasticSearch)
 4. Buffer (AWS Kinesis)
 5. Visualize (Web & Mobile Apps, BI Tools like Tablueu)
+
+## Engineering Competency
+https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJsEo/edit#gid=0
+
