@@ -187,5 +187,9 @@ AWS Data Pipeline Blueprint
 5. Visualize (Web & Mobile Apps, BI Tools like Tablueu)
 
 ## Engineering Competency
+
 https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJsEo/edit#gid=0
 
+## Starred Repos
+
+https://github.com/npmaile/blog
