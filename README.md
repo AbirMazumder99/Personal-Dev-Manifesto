@@ -140,11 +140,11 @@ src
   ```
 - When concerned with caching for better performance, memoization is a good concept to implement
 
-## Useful GitHub Repo
-
-- https://github.com/donnemartin/system-design-primer
+## Useful Links
 - https://12factor.net/
 - https://web.dev/
+- https://refactoring.com/catalog/
+
 
 ## Projects
 
@@ -192,4 +192,9 @@ https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJ
 
 ## Starred Repos
 
-https://github.com/npmaile/blog
+- https://github.com/donnemartin/system-design-primer
+
+## AI Code Generation
+- Tabnine
+- GitHub Copilot
+- ChatGPT
